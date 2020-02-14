@@ -1,5 +1,5 @@
 ## Python从零到一的所有学习笔记
-> 个人总结用
+> 个人总结用<br>
 包括：<br>
 * python基础知识basic
 * python进阶知识senior

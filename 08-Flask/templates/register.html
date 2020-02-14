@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>alab_register</title>
+</head>
+<body>
+<form method="post">
+    {{form.csrf_token}}
+    {{form.username.label}}: {{form.username}} <br>
+    {{form.passwd.label}}: {{form.passwd}} <br>
+    {{form.passwd2.label}}: {{form.passwd2}} <br>
+    {{form.submit}}
+</form>
+<hr>
+<p>
+    {%for message in get_flashed_messages()%}
+        {{message}}
+    {%endfor%}
+</p>
+</body>
+</html>
